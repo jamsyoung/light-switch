@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA3BD3020EFEC5000848CC0 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3BD2F20EFEC5000848CC0 /* Switch.swift */; };
+		0CA3BD3220EFECDA00848CC0 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3BD3120EFECDA00848CC0 /* util.swift */; };
 		E4833F3720EF98AC00AE8E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4833F3620EF98AC00AE8E63 /* AppDelegate.swift */; };
 		E4833F3920EF98AC00AE8E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4833F3820EF98AC00AE8E63 /* ViewController.swift */; };
 		E4833F3B20EF98AE00AE8E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4833F3A20EF98AE00AE8E63 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CA3BD2F20EFEC5000848CC0 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		0CA3BD3120EFECDA00848CC0 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 		E4833F3320EF98AC00AE8E63 /* Light Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4833F3620EF98AC00AE8E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4833F3820EF98AC00AE8E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				E4833F3C20EF98AE00AE8E63 /* Main.storyboard */,
 				E4833F3F20EF98AE00AE8E63 /* Info.plist */,
 				E4833F4020EF98AE00AE8E63 /* Light_Switch.entitlements */,
+				0CA3BD2F20EFEC5000848CC0 /* Switch.swift */,
+				0CA3BD3120EFECDA00848CC0 /* util.swift */,
 			);
 			path = "Light Switch";
 			sourceTree = "<group>";
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA3BD3020EFEC5000848CC0 /* Switch.swift in Sources */,
 				E4833F3920EF98AC00AE8E63 /* ViewController.swift in Sources */,
 				E4833F3720EF98AC00AE8E63 /* AppDelegate.swift in Sources */,
+				0CA3BD3220EFECDA00848CC0 /* util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

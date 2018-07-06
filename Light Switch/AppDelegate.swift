@@ -21,8 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func constructMenu() {
       let menu = NSMenu()
-      menu.addItem(NSMenuItem(title: "Turn On (Light Mode)", action: #selector(AppDelegate.toggleSwitch(_:)), keyEquivalent: "I"))
-      menu.addItem(NSMenuItem(title: "Turn Off (Dark Mode)", action: #selector(AppDelegate.toggleSwitch(_:)), keyEquivalent: "O"))
+      menu.addItem(NSMenuItem(title: "Flip the switch", action: #selector(AppDelegate.toggleSwitch(_:)), keyEquivalent: "F"))
       menu.addItem(NSMenuItem.separator())
       menu.addItem(NSMenuItem(title: "Quit Light Switch", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
       statusItem.menu = menu
@@ -36,7 +35,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
 
   @objc func toggleSwitch(_ sender: Any?) {
-    // call out to something to choose light or dark mode
-    print("The switch has been flipped")
+    print("The switch has been flipped");
+    Switch.toggle();
+//    NSAppleScript(source: "tell application \"System Events\" to tell appearance preferences to set dark mode to not dark mode")?.executeAndReturnError(nil)
   }
 }
